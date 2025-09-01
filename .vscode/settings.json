@@ -1,0 +1,48 @@
+{
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit", // Corrige problemas eslint ao salvar.
+    "source.organizeImports": "explicit"
+  },
+  "eslint.validate": ["typescript", "typescriptangular", "html"],
+
+  // Angular
+  "angular.enable-strict-mode-prompt": false, // Evita popups chatos.
+  "files.associations": {
+    "*.component.html": "html"
+  },
+
+  // UI
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "off", // Para evitar conflitos com ESLint e etc.
+  "explorer.compactFolders": false, // Não compacta pastas vazias no explorador.
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // Indentação dos tabs
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+
+  // Encoding padrão
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false
+}
